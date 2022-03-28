@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex iaeloko</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>¡Bienvenido al Pokedex de iaeloko.com!</h1>
+    <br>
+    <img src="./pokedex.jpeg" alt="pokedex" id="pokeimg" width="350px"><br><br><br><br>
+<div class="info">
+   
+    <h3>Nombre:</h3><br>
+    <div id="nombre"></div>
+
+    <h3>Tipo:</h3><br>
+    <div id="tipo"></div>
+
+    <h3>Estadísticas:</h3><br>
+    <div id="est"></div>
+
+    <h3>Movimientos:</h3><br>
+    <div id="mov"></div>
+
+</div>
+
+<h2>¡Busca tu pokemón aqui!</h2>
+<div class="botones">
+
+
+    <input type="text" placeholder="Nombre del Pokemón" id="pokename" name="pokename"><br>
+    <br><br>
+   
+    <button onclick="fetchpokemon()">Cambiar Pokemón</button>
+    
+</div>
+
+    
+</body>
+<footer>
+    <script src="./poke.js"></script>
+
+</footer>
+</html>

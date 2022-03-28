@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(80, 80, 80);
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
+}
+
+.info {
+    
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.botones {
+    
+}
